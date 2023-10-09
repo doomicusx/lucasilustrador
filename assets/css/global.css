@@ -1,0 +1,41 @@
+/* Imports */
+@import url(./main/main.css);
+@import url(./main/componentes.css);
+@import url(./main/loader.css);
+@import url(./main/menu.css);
+
+/* CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  quotes: none;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+a:link,
+a:visited,
+a {
+  color: inherit; /* Isso herda a cor do texto do elemento pai */
+  text-decoration: none; /* Remove sublinhado padrão */
+}
+
+button {
+  cursor: pointer !important;
+  all: unset;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
